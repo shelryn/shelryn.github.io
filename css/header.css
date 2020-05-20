@@ -1,42 +1,45 @@
 header {
   width: 100%;
+  /* padding-bottom: 53%; */
+  max-height: 1024px;
+}
+.background {
+  width: 100%;
   max-width: 1920px;
-  height: 1024px;
-  min-width: 700px;
-  height: 1024px;
-  margin-left: auto;
-  margin-right: auto;
-
-  background-image: url("img/backgroundOne.png");
+  max-height: 1024px;
+  overflow: hidden;
 }
 
 .backgroundOne {
   max-width: 1920px;
   width: 100%;
+  padding-bottom: 53%;
   background-image: url("img/backgroundOne.png");
   }
 .backgroundTwo {
-  width: 1920px;
-  height: 1024px;
+  max-width: 1920px;
+  width: 100%;
+  padding-bottom: 53%;
   background-image: url("img/backgroundTwo.png");
 }
 .backgroundThree {
-  width: 1920px;
-  height: 1024px;
+  max-width: 1920px;
+  width: 100%;
+  padding-bottom: 53%;
   background-image: url("img/backgroundThree.png");
 }
 .backgroundFour {
-  width: 1920px;
-  height: 1024px;
+  max-width: 1920px;
+  width: 100%;
+  padding-bottom: 53%;
   background-image: url("img/backgroundFour.png");
 }
 .backgroundFive {
-  width: 1920px;
-  height: 1024px;
+  max-width: 1920px;
+  width: 100%;
+  padding-bottom: 53%;
   background-image: url("img/backgroundFive.png");
 }
-
-
 .headList {
   display: inline-block;
   margin-right: 3%;
@@ -52,30 +55,45 @@ header {
 }
 
 nav {
-    max-width: 1920px;
+    /* max-width: 2000px; */
     min-width: 700px;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     position: fixed;
-    /* top: -2%; */
+    top: -10px;
     background-color: pink;
     text-align: center;
     z-index: 3;
 }
 
+figure {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 100%;
+  height: 0;
+  padding-bottom: 53.3%;
+}
+
+/* .background h1 {
+  position: relative
+} */
 h1 {
   position: relative;
   left: 8%;
-  top: 120px;
+  top: -915px;
   font-family: Playfair Display;
   font-style: normal;
   font-weight: normal;
   font-size: 288px;
   margin: 0;
-  padding-top: 10%;
+  padding-top: 10%; /*поиграться для мобилки */
   line-height: 92px;
   display: flex;
   align-items: center;
   color: #FFFFFF;
+  z-index: 2;
 }
 i {
   font-style: normal;
@@ -92,14 +110,14 @@ i {
   align-items: center;
   color: #FFFFFF;
   position: relative;
-  top: 195px;
+  top: -835px;
   left: 8%;
   max-width: 635px;
 }
 
 .button {
   position: relative;
-  top: 230px;
+  top: -800px;
   left: 8%;
   background-color: #D06D68;
   border-color: #D06D68;

@@ -5,7 +5,7 @@ $('.owl-carousel').owlCarousel({
     responsive:{
         700:{
           loop:false,
-          items:1,
+          items:3,
           center: true,
 
 
@@ -13,7 +13,7 @@ $('.owl-carousel').owlCarousel({
         1200:{
           margin:1,
           stagePadding: 150,
-          items:2,
+          items:3,
         },
         1600:{
             margin:10,

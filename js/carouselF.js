@@ -3,21 +3,23 @@ $('.owl-carousel').owlCarousel({
     nav:true,
     navText: ["prev", "next"],
     responsive:{
-        700:{
+        0:{
           loop:false,
-          items:3,
+          items:1,
           center: true,
 
 
         },
-        1200:{
-          margin:1,
-          stagePadding: 150,
-          items:3,
+        800:{
+          margin:10,
+          // stagePadding: 150,
+          items:2,
         },
-        1600:{
+        1400:{
             margin:10,
-            stagePadding: 300,
+            stagePadding:200,
+
+            // stagePadding: 300,
             items:3,
             center: true,
         }

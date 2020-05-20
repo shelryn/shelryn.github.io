@@ -5,10 +5,7 @@ main {
   font-size: 24px;
   line-height: 155.9%;
   width: 100%;
-  /* max-width: 1920px; */
   overflow: hidden;
-
-
 }
 
 #heading-zwei {
@@ -21,13 +18,19 @@ main {
   text-align: center;
   color: #000000;
   position: relative;
-  top: 40px;
 
 }
 
 
+.middle {
+  max-height: 1024px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
 #table {
   max-width: 1620px;
+  height: 0;
+  overflow-y: hidden;
   width: 100%;
   padding-bottom: 58.6%;
   min-width: 700px;
@@ -42,7 +45,6 @@ main {
   width: 49%;
   padding-bottom: 59%;
   background-color: #E2E2E2;
-  /* background-color: blue; */
   float: left;
   margin: 0 1% 0 0;
   position: relative;
@@ -65,13 +67,11 @@ main {
   position: relative;
   width: 48%;
   padding-bottom: 58%;
-  /* background-color: green; */
   background-color: #E2E2E2;
   margin: 0 0 0 0;
   display: inline-block;
 }
 .r {
-   /* background-color: red; */
    background-color: #E2E2E2;
    margin: 0 0 0 2%;
  }
@@ -99,5 +99,4 @@ main {
   position: relative;
   bottom: 20px;
   right: 40px;
-
 }

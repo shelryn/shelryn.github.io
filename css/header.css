@@ -1,0 +1,131 @@
+header {
+  width: 100%;
+  max-width: 1920px;
+  height: 1024px;
+  min-width: 700px;
+  height: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url("img/backgroundOne.png");
+}
+
+.backgroundOne {
+  max-width: 1920px;
+  width: 100%;
+  background-image: url("img/backgroundOne.png");
+  }
+.backgroundTwo {
+  width: 1920px;
+  height: 1024px;
+  background-image: url("img/backgroundTwo.png");
+}
+.backgroundThree {
+  width: 1920px;
+  height: 1024px;
+  background-image: url("img/backgroundThree.png");
+}
+.backgroundFour {
+  width: 1920px;
+  height: 1024px;
+  background-image: url("img/backgroundFour.png");
+}
+.backgroundFive {
+  width: 1920px;
+  height: 1024px;
+  background-image: url("img/backgroundFive.png");
+}
+
+
+.headList {
+  display: inline-block;
+  margin-right: 3%;
+  /* transform: scale(0.92); */
+}
+.headList a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  /* letter-spacing: 1.5px; */
+  color: white;
+  text-decoration: none;
+
+}
+
+nav {
+    max-width: 1920px;
+    min-width: 700px;
+    width: 100%;
+    position: fixed;
+    /* top: -2%; */
+    background-color: pink;
+    text-align: center;
+    z-index: 3;
+}
+
+h1 {
+  position: relative;
+  left: 8%;
+  top: 120px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 288px;
+  margin: 0;
+  padding-top: 10%;
+  line-height: 92px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+i {
+  font-style: normal;
+  color: black;
+}
+
+#welcomeWords {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 156%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  position: relative;
+  top: 195px;
+  left: 8%;
+  max-width: 635px;
+}
+
+.button {
+  position: relative;
+  top: 230px;
+  left: 8%;
+  background-color: #D06D68;
+  border-color: #D06D68;
+  width: 305px;
+  height: 77px;
+  border-radius: 45px;
+}
+.button a {
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 75px;
+  padding-left: 65px;
+  padding-top: 25px;
+  margin-top: 7%;
+  color: white;
+  font-size: 24px;
+}
+
+.socials {
+  width: 40px;
+  height: 40px;
+}
+
+#contact {
+  width: auto;
+  float: right;
+}

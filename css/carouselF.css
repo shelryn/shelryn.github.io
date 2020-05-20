@@ -1,9 +1,7 @@
 #fixed-container {
-  position: relative;
-  bottom: 850px;
-  width: 100%;
-  max-width: 1800px;
-  overflow-x:  hidden;
+  /* width: 100%; */
+  max-width: 1920px;
+  /* overflow-x:  hidden; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -11,27 +9,44 @@
 #upper {
   z-index: 2;
   width: 100%;
-
   position: relative;
-  bottom: 50px;
-
+  /* bottom: 1050px; */
 }
-.owl-item {
+/* .owl-item {
   max-height: 383px;
   /* opacity: 0.2; */
 }
-.owl-item .active {
+/* .owl-item .active {
   opacity: 1;
-}
+} */
 .owl-carousel figure {
   width: 383px;
   max-height: 420px;
   background-color: grey;
   display: block;
 }
-/* .owl-carousel img {
+.owl-carousel img {
   width: 383px;
   height:383px;
   background-color: grey;
   display: block;
-} */
+}
+
+.prev2{
+  background-image: url("img/arrowLeft.png");
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: 52%;
+  right: 5%;
+}
+.next2{
+  background-image: url("img/arrowRight.png");
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: 30%;
+  right: 5%;
+}

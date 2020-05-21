@@ -1,13 +1,11 @@
 header {
   width: 100%;
-  /* padding-bottom: 53%; */
   max-height: 1024px;
 }
 .background {
   width: 100%;
   max-width: 1920px;
   max-height: 1024px;
-  overflow: hidden;
 }
 
 .backgroundOne {
@@ -43,12 +41,10 @@ header {
 .headList {
   display: inline-block;
   margin-right: 3%;
-  /* transform: scale(0.92); */
 }
 .headList a {
   font-family: 'Open Sans', sans-serif;
   font-size: 24px;
-  /* letter-spacing: 1.5px; */
   color: white;
   text-decoration: none;
 
@@ -60,7 +56,8 @@ nav {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    position: fixed;
+    /* position: sticky; */
+    position: absolute;
     top: -10px;
     background-color: pink;
     text-align: center;
@@ -76,13 +73,15 @@ figure {
   padding-bottom: 53.3%;
 }
 
-/* .background h1 {
-  position: relative
-} */
+#words {
+  position: relative;
+  top: 0;
+}
 h1 {
   position: relative;
   left: 8%;
-  top: -915px;
+  top: 5vw;
+  height: 0;
   font-family: Playfair Display;
   font-style: normal;
   font-weight: normal;
@@ -104,25 +103,25 @@ i {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 156%;
+  font-size: 1.2vw;
+  line-height: 165%;
   display: flex;
   align-items: center;
   color: #FFFFFF;
   position: relative;
-  top: -835px;
+  top: 11.5vw;
   left: 8%;
   max-width: 635px;
 }
 
 .button {
   position: relative;
-  top: -800px;
+  top: 13vw;
   left: 8%;
   background-color: #D06D68;
   border-color: #D06D68;
-  width: 305px;
-  height: 77px;
+  width: 15.8%;
+  height: 4vw;
   border-radius: 45px;
 }
 .button a {
@@ -130,12 +129,11 @@ i {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  line-height: 75px;
-  padding-left: 65px;
-  padding-top: 25px;
+  line-height: 340%;
+  padding-left: 22%;
   margin-top: 7%;
   color: white;
-  font-size: 24px;
+  font-size: 1.2vw;
 }
 
 .socials {

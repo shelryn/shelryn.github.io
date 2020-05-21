@@ -1,33 +1,24 @@
 #fixed-container {
-  /* width: 100%; */
-  max-width: 1920px;
-  /* overflow-x:  hidden; */
-  margin-left: auto;
-  margin-right: auto;
+    max-width: 100%;
+    margin-left: 2.8%;
 }
 
 #upper {
   z-index: 2;
   width: 100%;
   position: relative;
-  /* bottom: 1050px; */
 }
-/* .owl-item {
-  max-height: 383px;
-  /* opacity: 0.2; */
-}
-/* .owl-item .active {
-  opacity: 1;
-} */
+
 .owl-carousel figure {
-  width: 383px;
-  max-height: 420px;
+  min-width: 383px;
+  width: 60%;
+  height: 0;
+  padding-bottom: 80%;
   background-color: grey;
   display: block;
 }
 .owl-carousel img {
-  width: 383px;
-  height:383px;
+  width: 100%;
   background-color: grey;
   display: block;
 }

@@ -12,12 +12,15 @@ $('.owl-carousel').owlCarousel({
         },
         900:{
           items:2,
-          nav:true,
+          stagePadding:50,
 
         },
+        1100: {
+          nav:true,
+        },
         1400:{
-            margin:10,
-            stagePadding:85,
+            margin:0,
+            stagePadding: 180,
             nav:true,
             items:3,
             center: true,

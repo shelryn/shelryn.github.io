@@ -1,0 +1,57 @@
+footer {
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 155.9%;
+  background-color: black;
+  height: 350px;
+  /* position: relative;
+  top: 10vw; */
+
+
+}
+
+#wrapper3 {
+height: 300px;
+position: relative;
+top: 3vw;
+}
+#firstColumn {
+  position: relative;
+  /* top: 4.7vw; */
+  left: 8.5%;
+  width: 16%;
+  float: left;
+}
+#secondColumn {
+  position: absolute;
+  /* top: 2vw; */
+  left: 28%;
+   width: 24%;
+}
+#thirdColumn {
+  position: absolute;
+  /* top: 4.7vw; */
+  left: 55%;
+  width: 24%;
+}
+.down-heading {
+  color: white;
+  line-height:100%;
+  font-size: 1.4vw;
+}
+.down a {
+  text-decoration: none;
+  font-size: 1.4vw;
+  color: white;
+  line-height:120%;
+
+}
+.down {
+  background-color: black;
+  text-align: left;
+  padding: 0;
+
+}

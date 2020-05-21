@@ -7,6 +7,7 @@ $('.owl-carousel').owlCarousel({
           items:2,
           center: true,
           nav:false,
+          // stagePadding:70,
 
 
         },

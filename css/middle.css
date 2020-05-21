@@ -4,6 +4,7 @@ main {
   font-weight: 300;
   font-size: 24px;
   line-height: 155.9%;
+  /* width: 900px; */
   width: 100%;
   overflow: hidden;
 }
@@ -76,10 +77,10 @@ main {
    margin: 0 0 0 2%;
  }
  .rt {
-   margin: 0 0 2% 2%;
+   margin: 0 0 3% 2%;
  }
  .t {
-   margin: 0 0 2% 0;
+   margin: 0 0 3% 0;
  }
 .links {
   width: 48%;

@@ -70,7 +70,7 @@ main {
   padding-bottom: 59%;
   background-color: #E2E2E2;
   float: left;
-  margin: 0 2% 0 0;
+  margin: 0 1.6% 0 0;
   position: relative;
   bottom: 20px;
   /* float: left; */
@@ -88,7 +88,6 @@ main {
   position: relative;
   right: 3.5%;
   bottom: 20px;
-
   float: right;
 }
 
@@ -117,13 +116,13 @@ main {
 }
 .r {
    background-color: #E2E2E2;
-   margin: 0 0 0 2%;
+   margin: 0 0 0 1.6%;
  }
  .rt {
-   margin: 0 0 2% 2%;
+   margin: 0 0 1.3% 1.6%;
  }
  .t {
-   margin: 0 0 2% 0;
+   margin: 0 0 1.3% 0;
  }
 .links {
   width: 48%;

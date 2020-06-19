@@ -147,3 +147,13 @@ i {
   width: auto;
   float: right;
 }
+#logo {
+  width: 100px;
+  z-index: 5;
+}
+#logoF {
+  width: 230px;
+  position: relative;
+  left: 60%;
+  filter: invert();
+}

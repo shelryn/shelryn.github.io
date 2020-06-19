@@ -5,3 +5,31 @@ html body {
 #wrapper {
   overflow: hidden;
 }
+.toPay {
+  width: 50px;
+}
+#sberbank {
+  position: absolute;
+  left: 58%;
+  top: 50px;
+  filter: invert();
+}
+
+#mastercard {
+  position: absolute;
+  left: 67.5%;
+  top: 50px;
+  filter: invert();
+}
+#paypal {
+  position: absolute;
+  left: 58%;
+  top: 145px;
+}
+
+#cashpay {
+  position: absolute;
+  left: 67.53%;
+  top: 115px;
+  filter: invert();
+}

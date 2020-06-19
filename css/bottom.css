@@ -61,14 +61,14 @@ top: 3vw;
 #sberbank {
   position: absolute;
   left: 58%;
-  top: 160px;
+  top: 65px;
   filter: invert();
 }
 
 #mastercard {
   position: absolute;
   left: 67.5%;
-  top: 160px;
+  top: 65px;
   filter: invert();
 }
 #paypal {

@@ -55,3 +55,37 @@ top: 3vw;
   padding: 0;
 
 }
+.toPay {
+  width: 50px;
+}
+#sberbank {
+  position: absolute;
+  left: 58%;
+  top: 160px;
+  filter: invert();
+}
+
+#mastercard {
+  position: absolute;
+  left: 67.5%;
+  top: 160px;
+  filter: invert();
+}
+#paypal {
+  position: absolute;
+  left: 58%;
+  top: 160px;
+}
+
+#cashpay {
+  position: absolute;
+  left: 67.53%;
+  top: 130px;
+  filter: invert();
+}
+#logoF {
+  width: 240px;
+  position: relative;
+  left: 60%;
+  filter: invert();
+}

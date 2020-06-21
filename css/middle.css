@@ -75,13 +75,23 @@ main {
   bottom: 20px;
   /* float: left; */
   right: 3%;
+  text-align: center;
 }
 #t-left img{
   width: 100%;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  margin-bottom: 0;
+  margin-top: auto;
 }
-#t-left img{
-  width: 100%;
+#t-left a {
+  font-size: 14px;
+  text-decoration: none;
+  position: relative;
+  top: -15px;
 }
+
 #t-right {
   width: 48%;
   padding-bottom: 59%;
@@ -90,7 +100,35 @@ main {
   bottom: 20px;
   float: right;
 }
+.goods img {
+  width: 100%;
+  max-height: 250px;
+  margin: auto;
+  margin-bottom: 0;
+  margin-top: auto;
+}
+.goods-t {
+  position: relative;
+  top: 15px;
+}
 
+.goods a {
+  font-size: 12px;
+  text-decoration: none;
+  position: relative;
+  /* top: -15px; */
+  /* line-height: 1.5; */
+  line-height: 0.5;
+}
+.r a {
+  position: relative;
+  top: -15px;
+}
+
+.l a {
+  position: relative;
+  top: -15px;
+}
 .goods {
   position: relative;
   width: 48%;
@@ -98,6 +136,8 @@ main {
   background-color: #E2E2E2;
   margin: 0 0 0 0;
   display: inline-block;
+  line-height: 0.5;
+
 }
 .bt {
   display: block;
@@ -142,4 +182,35 @@ main {
   position: relative;
   bottom: 20px;
   right: 40px;
+}
+.good {
+  /* text-align: center; */
+
+}
+.bomb {
+  max-width: 200px;
+  max-height: 200px;
+  margin: auto;
+}
+.good a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: 12px;
+  position: relative;
+  top: -10px;
+}
+.thatButton {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+.plus {
+  position: relative;
+  top: 20px;
+  right: 200px;
+}
+.minus {
+  position: relative;
+  top: -21.5px;
+  left: 20px;
 }

@@ -13,18 +13,19 @@ $('.owl-carousel').owlCarousel({
         },
         900:{
           items:2,
-          stagePadding:50,
+          stagePadding: 10,
+          margin: 20,
 
         },
         1100: {
           nav:true,
         },
         1400:{
-            margin:0,
-            stagePadding: 180,
             nav:true,
             items:3,
             center: true,
+            stagePadding: 10,
+            margin: 20,
         }
     },
 })

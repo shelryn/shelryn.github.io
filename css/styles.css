@@ -1,8 +1,7 @@
+
 html {
 	background-color: #fff;
-	/* color: white; */
 	font-family: 'Playfair Display';
-	/* overflow: hidden; */
 }
 #wrapper {
 	max-width: 100%;
@@ -10,12 +9,11 @@ html {
 	text-align: center;
 }
 header {
-	/* background-image: url(img/background.jpg); */
 	width: 100%;
 	height: 1024px;
-	/* background-image: url(img/background.jpg); */
 	position: relative;
 	bottom: 20px;
+	overflow: hidden;
 }
 #header-image {
 	width: 100%;
@@ -24,20 +22,20 @@ header {
 	position: relative;
 	top: 20px;
 	filter: invert(0.8);
-	/* filter: opacity(0.8); */
 }
 body {
 	margin: 0;
 }
 #number {
 	position: relative;
-	/* top: 25px; */
 	bottom: 25px;
 }
 #kontakty {
-	background-color: white;
+	background-color: #f2f2f2;
+	border: 0.5px solid #929292;
 	color: black;
-	width: 450px;
+	width: 40%;
+	max-width: 450px;
 	height: 200px;
 	position: relative;
 	top: 40px;
@@ -46,15 +44,17 @@ body {
 	vertical-align: middle;
 	border-radius: 15px;
 }
+
 .arroUp {
 	width: 0px;
 	height: 0px;
-	/* background-color: green; */
 	border: 25px solid;
-	border-color:transparent white white transparent;
+	border-color:transparent #f2f2f2 #f2f2f2 transparent;
+	/* border-color:transparent #929292 #929292 transparent; */
+	/* border-color:transparent green green transparent; */
 	position: relative;
-	left: 80%;
 	bottom: 20px;
+	left: 75%;
 }
 #contact a {
 	color: #8D021F;
@@ -73,7 +73,7 @@ body {
 	height: 200px;
 	width: 27vw;
 	text-align: left;
-	/* filter: opacity(0.5); */
+	border-radius: 4px;
 }
 h1 {
 	font-family: 'Oswald', sans-serif;
@@ -87,12 +87,9 @@ h1 {
 	background-color: white;
 	width: 100%;
 	height: 75px;
-	/* position: relative; */
 	text-align: center;
-	/* vertical-align: middle; */
-	/* top: 50px; */
-	/* bottom: 50px; */
 	font-size: 25px;
+	border-radius: 4px;
 }
 #jury {
 	position: relative;
@@ -102,11 +99,9 @@ h1 {
 	line-height: 100%;
 }
 #to-get a {
-	/* vertical-align: middle; */
 	margin-top: auto;
 	margin-bottom: auto;
 	color: black;
-	/* font-weight: bolder; */
 	position: relative;
 	top: 7px;
 	font-size: 1.5em;
@@ -134,27 +129,33 @@ h1 {
 	line-height: 1.75;
 }
 nav {
-	background: linear-gradient(to bottom, #8D021F, #42393a);
+	background-color: white;
 	width: 100%;
-	position: absolute;
-	top: 20px;
+	position: fixed;
+	top: 0px;
 	font-size: 20px;
 	height: 70px;
 	font-family: 'Playfair Display';
 	vertical-align: middle;
+	z-index: 3;
 }
 nav a {
-	color: white;
+	color: #2f2f2f;
 	text-decoration: none;
 	padding: 0 5%;
 	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
 	position: relative;
 	top: 10px;
+	border-left: 1.5px solid #8D021F;
+}
+#none {
+	border: 0 solid white;
 }
 h2 {
 	font-family: 'Playfair Display', serif;
-	font-size: 30px;
+	font-size: 150%;
+	line-height: 100%;
 }
 #topper {
 	width: 44%;
@@ -175,24 +176,30 @@ main {
 }
 #welcomeWords {
 	margin: 0;
+	text-align: left;
+	line-height: 1.75;
 }
 #advokat-photo {
 	float: left;
-	margin-right: 5%;
-	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-right: 2.5%;
+	margin-bottom: 2.5%;
 	text-align: left;
 	width: 35%;
 }
 #greet {
 	max-width: 1000px;
+	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 /* Для окошек popup */
 .b-container{
+		min-width: 350px;
     width: 20%;
-    height:70px;
+		max-height: 70px;
+    height:10vh;
     margin: 0 0 30px 0px;
     font-size:30px;
     color: #fff;
@@ -200,7 +207,6 @@ main {
 		color: black;
 		background-color: #8D021F;
 		border-radius: 30px;
-		/* vertical-align: middle; */
 
 }
 .b-container a{
@@ -209,7 +215,6 @@ main {
 	font-family: 'Playfair Display';
 	font-weight: bolder;
 	color: black;
-	/* line-height: 1.75; */
 	position: relative;
 	top: 10px;
 
@@ -218,9 +223,8 @@ main {
     width:100%;
     min-height:100%;
     background-color: rgba(0,0,0,0.5);
-    /* overflow:hidden; */
     position:fixed;
-		/* left: 13%; */
+		z-index: 4;
     top:0px;
 }
 .b-popup .b-popup-content{
@@ -228,23 +232,24 @@ main {
 		margin-right: auto;
 		margin-top: 40px;
     width: 90%;
-    /* height: 40px; */
     padding:10px;
     background-color: #c5c5c5;
     border-radius:5px;
     box-shadow: 0px 0px 10px #000;
 }
 #services {
-	max-height: 150px;
+	max-height: 250px;
 	padding-top: 25px;
+	padding-bottom: 30px;
 }
-
-/* #services a {
-	font-size: 24px;
-	font-family: Arial;
-	width: 25%;
-} */
-
+#services h2 {
+	font-family: 'Playfair Display', serif;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 45px;
+	/* font-size: calc(35px + 0.4vw); */
+}
 #victories {
 	width: 70%;
 	margin-left: auto;
@@ -264,3 +269,9 @@ main {
 	margin-right: auto;
 }
 /* конец карусели */
+
+@media screen and (max-width: 768px) {
+	#jurys {
+		font-size: calc(38px + 0.5vw);
+	}
+}

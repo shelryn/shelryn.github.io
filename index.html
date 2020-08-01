@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru" dir="ltr">
 <head>
 	<title>Сайт юриста Нестерова</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -13,7 +13,7 @@
 			<header>
 				<img src="img/background.jpg" alt="" id="header-image">
 				<nav>
-					<a href="#">Знакомство</a>
+					<a href="#" id="none">Знакомство</a>
 					<a href="#">Юридические услуги</a>
 					<a href="#">Отзывы</a>
 					<a href="javascript:ShowContact()">Контакты</a>
@@ -22,17 +22,13 @@
 							<div class="arroUp">
 							</div>
 							<p id="number">Вы можете позвонить мне по телефону: +79123456789<br>Или написать на электронную почту: workemail@email.com</p>
-	    				<a href="javascript:HideContact()">Скрыть</a>
+	    				<a href="javascript:HideContact()" id="none">Скрыть</a>
 						</div>
 					</adress>
 				</nav>
-				<!-- <div class="top">
-					<address id="lawyer">
-					</address>
-			</div> -->
 			<div id="willkommen">
-				<h1>Nikita Nesterov</h1>
-				<h2 id="jury">lawyer</h2>
+				<h1 lang="en">Nikita Nesterov</h1>
+				<h2 id="jury" lang="en">lawyer</h2>
 				<div id="to-get">
 					<a href="#">Заказать звонок</a>
 				</div>
@@ -40,8 +36,6 @@
 			</div>
 			<p id="topper">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				<!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
-				<!-- lorem ipsum dolor sit amet consectur lorem ipsum dolor sit amet consectur lorem ipsum dolor sit amet consectur lorem ipsum dolor sit amet consectur lorem ipsum dolor sit amet consectur lorem ipsum dolor sit amet consectur  -->
 		</header>
 		<main>
 			<h2>Знакомство</h2>
@@ -59,7 +53,7 @@
 				</p>
 			</div>
 			<div id="services">
-				<h2>Юридические услуги</h2>
+				<h2 id="jurys">Юридические услуги</h2>
 				<!-- Первый попап -->
 				<div class="b-container">
     			<a href="javascript:PopUpShow()">Долги</a>
@@ -102,14 +96,9 @@
 				</div>
 			</div>
 				<!-- конец четвертого попапа -->
-				<!-- <h2>Победы</h2>
-			<p id="victories">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p> -->
+
 				<h2>Отзывы</h2>
-			
+
 				<div class="owl-carousel owl-theme" id="slider">
 			   	<div class="slide">
 			        <h3 class="slide__title">Заголовок слайда 1</h3>
@@ -154,95 +143,8 @@
 				</div>
 			</main>
 			<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+			<script src="js/popup.js"></script>
 			<script src="js/owl.carousel.min.js"></script>
 			<script src="js/carouselF.js" charset="utf-8"></script>
-
-			</script>
-	<script>
-	    $(document).ready(function(){
-	        //Скрыть PopUp при загрузке страницы
-					HideContact()
-	        PopUpHide();
-					PopUpHide2();
-					PopUpHide3();
-					PopUpHide4();
-	    }
-		);
-	    //Функция отображения PopUp
-	    function PopUpShow(){
-	        $("#popup1").show();
-	    }
-	    //Функция скрытия PopUp
-	    function PopUpHide(){
-	        $("#popup1").hide();
-	    }
-			//Функция отображения PopUp
-	    function PopUpShow2(){
-	        $("#popup2").show();
-	    }
-	    //Функция скрытия PopUp
-			function PopUpHide2(){
-				$("#popup2").hide();
-			}
-			//Функция отображения PopUp
-	    function PopUpShow3(){
-	        $("#popup3").show();
-	    }
-	    //Функция скрытия PopUp
-			function PopUpHide3(){
-				$("#popup3").hide();
-			}
-			//Функция отображения PopUp
-	    function PopUpShow4(){
-	        $("#popup4").show();
-	    }
-	    //Функция скрытия PopUp
-			function PopUpHide4(){
-				$("#popup4").hide();
-			}
-			//Функция отображения PopUp
-	    function ShowContact(){
-	        $("#contact").show();
-					setTimeout(HideContact, 10000);
-	    }
-	    //Функция скрытия PopUp
-			function HideContact(){
-				$("#contact").hide();
-			}
-	</script>
-	<script>
-    /* этот код помечает картинки, для удобства разработки */
-    let i = 1;
-    for(let li of carousel.querySelectorAll('li')) {
-      li.style.position = 'relative';
-      li.insertAdjacentHTML('beforeend', `<span style="position:absolute;left:0;top:0">${i}</span>`);
-      i++;
-    }
-
-    /* конфигурация */
-    let width = 130; // ширина картинки
-    let count = 3; // видимое количество изображений
-
-    let list = carousel.querySelector('ul');
-    let listElems = carousel.querySelectorAll('li');
-
-    let position = 0; // положение ленты прокрутки
-
-    carousel.querySelector('.prev').onclick = function() {
-      // сдвиг влево
-      position += width * count;
-      // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
-      position = Math.min(position, 0)
-      list.style.marginLeft = position + 'px';
-    };
-
-    carousel.querySelector('.next').onclick = function() {
-      // сдвиг вправо
-      position -= width * count;
-      // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
-      position = Math.max(position, -width * (listElems.length - count));
-      list.style.marginLeft = position + 'px';
-    };
-  </script>
 </body>
 </html>

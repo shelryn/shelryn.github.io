@@ -236,6 +236,7 @@ main {
     background-color: #c5c5c5;
     border-radius:5px;
     box-shadow: 0px 0px 10px #000;
+		text-align: left;
 }
 #services {
 	max-height: 250px;

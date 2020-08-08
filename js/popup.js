@@ -48,3 +48,6 @@ function ShowContact(){
 function HideContact(){
   $("#contact").hide();
 }
+// function toggle(.b-popup-content) {
+//   el.style.display = (el.style.display == 'none') ? '' : 'none'
+// }

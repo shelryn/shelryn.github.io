@@ -36,7 +36,7 @@ h1 {
 #jury {
 	position: relative;
 	position: relative;
-	bottom: 30px;
+	bottom: calc(28px - 0.5vw);
 	left: 2.5%;
 	font-size: 32px;
 	font-family: 'Oswald', sans-serif;
@@ -44,7 +44,7 @@ h1 {
 #willkommen {
 	position: relative;
 	vertical-align: middle;
-	bottom: 30vw;
+	bottom: 28vw;
 	left: 10vw;
 	color: white;
 	background-color: #ed3327;

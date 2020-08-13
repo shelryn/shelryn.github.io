@@ -11,7 +11,9 @@ html {
 }
 header {
 	width: 100%;
-	height: 25vw;
+	/* height: 25vw; */
+	max-height: 600px;
+	height: 60vw;
 	position: relative;
 	bottom: 20px;
 	overflow: hidden;
@@ -19,46 +21,56 @@ header {
 }
 h1 {
 	font-family: 'Oswald', sans-serif;
-	font-size: 4vw;
+	/* font-size: 4vw; */
+	font-size: 64px;
 	font-weight: bold;
 	line-height: 100%;
 	position: relative;
 	left: 2.5%;
+	/* left: 33%; */
+	/* right: 50%; */
+	/* margin-left: auto; */
+	/* margin-right: auto; */
 	top: 1vw;
 }
 #jury {
 	position: relative;
+	position: relative;
+	bottom: 30px;
 	left: 2.5%;
-	font-size: 2vw;
+	font-size: 32px;
 	font-family: 'Oswald', sans-serif;
 }
 #willkommen {
 	position: relative;
 	vertical-align: middle;
-	bottom: 18vw;
+	bottom: 30vw;
 	left: 10vw;
 	color: white;
 	background-color: #ed3327;
-	height: 16vw;
-	width: 27vw;
+	height: 18vw;
+	width: 50vw;
+	max-width: 453px;
 	text-align: left;
 	border-radius: 4px;
 }
 #to-get {
 	background-color: white;
 	width: 100%;
-	height: 5.5vw;
+	height: calc(20px + 5.0vw);
 	position: absolute;
-	top: 10.5vw;
+	top: 12.5vw;
 	/* bottom: 0; */
 	text-align: center;
-	font-size: 25px;
+	font-size: calc(28px + 1vw);
 	font-weight: bolder;
 	border-radius: 4px;
 }
 #header-image {
 	width: 100%;
-	height: 22vw;
+	/* 22vw */
+	max-height: 600px;
+	height: 60vw;
 	z-index: -1;
 	position: relative;
 	top: 60px;
@@ -111,8 +123,9 @@ body {
 	margin-bottom: auto;
 	color: black;
 	position: relative;
-	top: 1.1vw;
-	font-size: 1.5em;
+	top: calc(10px - 0.15vw);
+	/* font-size: calc(20px + 1vw); */
+	/* font-size: 50%; */
 	text-decoration: none;
 	font-family: 'Oswald', sans-serif;
 }
@@ -163,7 +176,7 @@ nav a {
 }
 h2 {
 	font-family: 'Playfair Display', serif;
-	font-size: 150%;
+	font-size: calc(250% - 0.8vw);
 	line-height: 100%;
 }
 #topper {
@@ -230,8 +243,8 @@ main {
 }
 .b-container a{
 	text-decoration: none;
-	font-size: 20px;
-	font-family: 'Playfair Display';
+	font-size: (36px - 2vw);
+	font-family: 'Oswald';
 	font-weight: bolder;
 	color: black;
 	position: relative;
@@ -245,7 +258,7 @@ main {
 		border-radius: 1px solid black;
     position: relative;
 		/* z-index: 4; */
-    top:-50px;
+    top:-120px;
 }
 .b-popup .b-popup-content{
     margin-left: auto;
@@ -259,6 +272,9 @@ main {
     /* box-shadow: 0px 0px 10px #000; */
 		text-align: left;
 }
+.b-popup-content a {
+}
+
 hr {
 	width: 50%;
 	border: 1px solid #ed3327;
@@ -303,17 +319,19 @@ hr {
 }
 .hider {
 	position: relative;
-	left: 90%;
-	/* top: -25px; */
+	/* left: 95%; */
+	left: 58%;
+	font-size: 2vw;
+	top: -25px;
 }
 /* конец карусели */
 
-@media screen and (max-width: 768px) {
-	header {
+/* @media screen and (max-width: 768px) { */
+	/* header {
 		min-height: 550px;
 		height: 50vw;
-	}
-	#jurys {
+	} */
+	/* #jurys {
 		font-size: calc(38px + 0.5vw);
 	}
 	#willkommen {
@@ -322,9 +340,18 @@ hr {
 		left: 10%;
 		color: white;
 		background-color: #ed3327;
-		height: 200px;
+		height: 250px;
 		width: 27vw;
 		text-align: left;
 		border-radius: 4px;
+	} */
+	/* h1 {
+		font-family: 'Oswald', sans-serif;
+		font-size: 2vw;
+		font-weight: bold;
+		line-height: 100%;
+		position: relative;
+		left: 33%;
+		top: 1vw;
 	}
-}
+} */
